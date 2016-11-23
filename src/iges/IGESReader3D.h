@@ -38,6 +38,7 @@ private:
 		};
 	};
 	double _stod(const std::string &str);
+	
 	// D,P part
 	void readPPart(const std::string &line, std::vector<std::string> &p_text) const;
 	void getPPart(const int pid_begin, const int pid_end, const std::vector<std::string> &p_text, std::vector<std::string> &pt) const;
@@ -59,5 +60,6 @@ private:
 public:
 	IGESReader3D() {};
 	IGESReader3D(std::string &path);
+	void getCurvesGroup(CurvesGroup &cg) const { cg = _curvesGroup; };
 };
 NS_END

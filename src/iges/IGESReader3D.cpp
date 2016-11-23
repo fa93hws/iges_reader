@@ -144,10 +144,12 @@ int IGESReader3D::parseSurf(_PARSEINPUT, SurfacesGroup &sg) {
 	int matrixTran = dt[6] == _empty ? 0 : stoi(dt[6]);
 	switch (typ) {
 	case 128: {
-		Surf128 ss;
-		parseNURBSSurf128(dt_all, dt_idx, pt, ss);
-		sg.addComp(std::shared_ptr<Surface3D>(&ss), dt_idx);
-		parseMatrixTran(dt_all, matrixTran, pt, std::make_shared<Shape3D>(ss));
+		Surf128* pss = new Surf128();
+		parseNURBSSurf128(dt_all, dt_idx, pt, *pss);
+		std::shared_ptr<Surface3D> sharedSS = std::shared_ptr<Surface3D>(pss);
+		sg.addComp(sharedSS, dt_idx);
+		std::shared_ptr<Shape3D> SharedS3 = std::shared_ptr<Shape3D>(sharedSS);
+		parseMatrixTran(dt_all, matrixTran, pt, SharedS3);
 		break;
 	}
 	default: 
@@ -243,16 +245,19 @@ void IGESReader3D::parseLoop508(_PARSEINPUT, Loop508 &loop) {
 int IGESReader3D::parseCurve(_PARSEINPUT, CurvesGroup &cg) {
 	std::vector<std::string> dt = dt_all[dt_idx];
 	int dirIdx = cg.findDirIdx(dt_idx);
-	if (dirIdx > -1) return dirIdx;
+	if (dirIdx > -1)
+		return dirIdx;
 
 	int typ = stoi(dt[0]);
 	int matrixTran = dt[6] == _empty ? 0 : stoi(dt[6]);
 	switch (typ) {
 	case 126: {
-		Curve126 cc;
-		parseCurve126(dt_all, dt_idx, pt, cc);
-		cg.addComp(std::shared_ptr<Curve3D>(&cc), dt_idx);
-		parseMatrixTran(dt_all, matrixTran, pt, std::make_shared<Shape3D>(cc));
+		Curve126* pcc = new Curve126();
+		parseCurve126(dt_all, dt_idx, pt, *pcc);
+		std::shared_ptr<Curve3D> sharedCC = std::shared_ptr<Curve3D>(pcc);
+		cg.addComp(sharedCC, dt_idx);
+		std::shared_ptr<Shape3D> sharedC3 = std::shared_ptr<Shape3D>(sharedCC);
+		parseMatrixTran(dt_all, matrixTran, pt, sharedC3);
 		break;
 	}
 	default:
