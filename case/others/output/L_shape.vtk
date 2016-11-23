@@ -1,0 +1,49 @@
+# vtk DataFile Version 3.1
+Something
+ASCII
+DATASET POLYDATA
+POINTS	6	FLOAT
+	 190.10535		 151.78734		 0.00000
+	-161.49669		 151.78734		 0.00000
+	-161.49669		-139.49616		 0.00000
+	-73.21566		-139.49616		 0.00000
+	-73.21566		 43.79189		 0.00000
+	 190.10535		 43.79189		 0.00000
+
+LINES		6		18
+		2		0		1
+		2		1		2
+		2		2		3
+		2		3		4
+		2		4		5
+		2		5		0
+
+
+CELL_DATA	6
+SCALARS	Layer_Id	int
+LOOKUP_TABLE default
+		0
+		0
+		0
+		0
+		0
+		0
+SCALARS	Line_ID	int
+LOOKUP_TABLE default
+		0
+		1
+		2
+		3
+		4
+		5
+
+POINT_DATA	6
+SCALARS	IsHardPt	int
+LOOKUP_TABLE default
+		1
+		1
+		1
+		1
+		1
+		1
+

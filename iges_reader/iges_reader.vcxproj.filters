@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="qa">
+      <UniqueIdentifier>{b5bbb649-c083-484c-9506-d18f900f2eab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{614a3f42-8de9-4432-b65d-802cbd24217a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\geo">
+      <UniqueIdentifier>{91fc573c-ce5c-4f94-9e1a-19ce8b8dac53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\nurbs">
+      <UniqueIdentifier>{7e6b1a8f-89bc-42d7-be12-617b4620c3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\iges">
+      <UniqueIdentifier>{1b94ad38-39ae-47a7-9531-b6abd8c156e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\io">
+      <UniqueIdentifier>{3d645fde-9709-404e-a45c-eac8c6c04f31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared">
+      <UniqueIdentifier>{36c64802-6ad2-475f-b01d-727925d17c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\algebra">
+      <UniqueIdentifier>{703ae3f6-8ff1-4262-ac6a-9a45361435e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\qa\main.cpp">
+      <Filter>qa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\iges\IGESReader.cpp">
+      <Filter>src\iges</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\iges\shape.cpp">
+      <Filter>src\iges</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\io\VTKExport.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\basis.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\convexHull.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\curve.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\nurbs_general.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\point4f.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\nurbs\surface.cpp">
+      <Filter>src\nurbs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geo\point3d.cpp">
+      <Filter>src\geo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geo\geometry.cpp">
+      <Filter>src\geo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\geo\vector3d.cpp">
+      <Filter>src\geo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shared\utility.cpp">
+      <Filter>src\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\algebra\linearAlgebra.cpp">
+      <Filter>src\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\algebra\matrix.cpp">
+      <Filter>src\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qa\qa_template.cpp">
+      <Filter>qa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qa\qa_2Dtest.cpp">
+      <Filter>qa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\algebra\polynomials.cpp">
+      <Filter>src\algebra</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\io\SbfemExport.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qa\qa_mRep.cpp">
+      <Filter>qa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\qa\qa_3Dtest.cpp">
+      <Filter>qa</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\iges\shape3D.cpp">
+      <Filter>src\iges</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\iges\IGESReader3D.cpp">
+      <Filter>src\iges</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\iges\IGESReader.h">
+      <Filter>src\iges</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\iges\shape.h">
+      <Filter>src\iges</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\VTKExport.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\basis.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\convexHull.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\curve.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\nurbs_general.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\point4f.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\nurbs\surface.h">
+      <Filter>src\nurbs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geo\point3d.h">
+      <Filter>src\geo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geo\geometry.h">
+      <Filter>src\geo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\geo\vector3d.h">
+      <Filter>src\geo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\config.h">
+      <Filter>src\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\smartpool.h">
+      <Filter>src\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\utility.h">
+      <Filter>src\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algebra\linearAlgebra.h">
+      <Filter>src\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algebra\matrix.h">
+      <Filter>src\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qa\qa_template.h">
+      <Filter>qa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qa\qa_2Dtest.h">
+      <Filter>qa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\algebra\polynomials.h">
+      <Filter>src\algebra</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\SbfemExport.h">
+      <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qa\qa_mRep.h">
+      <Filter>qa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\qa\qa_3Dtest.h">
+      <Filter>qa</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\iges\shape3D.h">
+      <Filter>src\iges</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\iges\IGESReader3D.h">
+      <Filter>src\iges</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="arma.natvis">
+      <Filter>src</Filter>
+    </Natvis>
+  </ItemGroup>
+</Project>

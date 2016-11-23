@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+  <Type Name="arma::Col&lt;*&gt;">
+    <DisplayString>{{ Size = {n_elem} }}</DisplayString>
+    <Expand>
+      <Item Name="[size]">n_elem</Item>
+      <ArrayItems>
+        <Size>n_elem </Size>
+        <ValuePointer>mem</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+  <Type Name="arma::Mat&lt;*&gt;">
+    <DisplayString>{{ Size = {n_rows} x {n_cols} }}</DisplayString>
+    <Expand>
+      <Item Name="[size]">n_elem</Item>
+      <ArrayItems>
+        <Direction>Backward</Direction>
+        <Rank>2</Rank>
+        <Size> _size[$i] </Size>
+        <ValuePointer>mem</ValuePointer>
+      </ArrayItems>
+    </Expand>
+  </Type>
+</AutoVisualizer>

@@ -1,0 +1,770 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"backgourn",
+				"background-color"
+			],
+			[
+				"push",
+				"push_back"
+			],
+			[
+				"my",
+				"mySuit"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/z3315263/Desktop/bullet.iges",
+			"settings":
+			{
+				"buffer_size": 10287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/uni/SCBEm/OCTREE_IMAGE_STL_2/case/OctreeSTL/output/bullet.vtk",
+			"settings":
+			{
+				"buffer_size": 167770,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/polymesher-code/src/IGES/IGESReader.cpp",
+			"settings":
+			{
+				"buffer_size": 6520,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/LaTeXTools/LaTeX.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Java/JavaC.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Java/Ant.sublime-build",
+					""
+				],
+				[
+					"Packages/Java/JavaC.sublime-build",
+					""
+				],
+				[
+					"Packages/User/java.sublime-build",
+					""
+				],
+				[
+					"Packages/User/java.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/java.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Traditional"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - PdfLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - XeLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Basic Builder - LuaLaTeX"
+				],
+				[
+					"Packages/LaTeXTools/LaTeX.sublime-build",
+					"Script Builder"
+				]
+			],
+			[
+				"Packages/LaTeXTools/LaTeX.sublime-build",
+				"PdfLaTeX"
+			]
+		],
+		[
+			[
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					""
+				],
+				[
+					"Packages/LaTeXing/LaTeX.sublime-build",
+					"Clean up Files"
+				]
+			],
+			[
+				"Packages/LaTeXing/LaTeX.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/java.sublime-build",
+					""
+				],
+				[
+					"Packages/User/java.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/java.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/c++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/c++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/c++/C++ Single File.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: install",
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control",
+				"Package Control: Add Channel"
+			],
+			[
+				"package control:ins",
+				"Package Control: Install Package"
+			],
+			[
+				"package control:instal",
+				"Package Control: Install Local Dependency"
+			],
+			[
+				"package control:remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packageres",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"package control:install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/private/iges_reader/src",
+		"/D/private/iges_reader/src/iges"
+	],
+	"file_history":
+	[
+		"/D/private/iges_reader/sublime_proj.sublime-project",
+		"/D/private/iges_reader/src/iges/IGESReader3D.cpp",
+		"/C/Users/z3315263/AppData/Roaming/Sublime Text 3/Packages/User/iges_reader.sublime-build",
+		"/D/private/iges_reader/qa/main.cpp",
+		"/D/polymesher-code/matlab/ot_stl_cutting.cpp",
+		"/C/Users/z3315263/AppData/Local/Temp/Rar$DRa0.161/C++ Single File.sublime-build",
+		"/D/Softwares/Sublime Text 3/Packages/C++.sublime-package",
+		"/C/Users/z3315263/Desktop/bullet.stl",
+		"/C/Users/z3315263/Desktop/html/test.html",
+		"/C/Users/z3315263/Desktop/html/Untitled-2.html",
+		"/D/polymesher-code/src/IGES/IGESReader.h",
+		"/C/Users/z3315263/Desktop/New folder/temp.html",
+		"/D/uni/Research/Review/4th/Main/main.tex",
+		"/C/Users/z3315263/Desktop/bullet.iges",
+		"/D/uni/Research/Report/mRep/mRep.tex",
+		"/D/Softwares/MiKTeX 2.9/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex",
+		"/D/uni/Research/Review/4th/Main/hon.bib",
+		"/D/uni/Research/Report/mRep/mRep.bib",
+		"/D/uni/Research/Review/3rd/Main/main.tex",
+		"/D/uni/Research/Report/report1/report01.tex",
+		"/D/private/iges_reader/extern/Armadillo/examples/example1.cpp",
+		"/D/private/iges_reader/extern/Armadillo/include/armadillo_bits/config.hpp",
+		"/D/private/iges_reader/extern/Armadillo/include/armadillo_bits/Mat_bones.hpp",
+		"/D/private/iges_reader/iges_reader/arma.natvis",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_surface.vtk",
+		"/D/private/iges_reader/case/dam_part/input/dam_part_surface.iges",
+		"/C/Users/z3315263/Desktop/test.cpp",
+		"/D/private/iges_reader/case/splines_test/input/spline_test_1.iges",
+		"/D/private/iges_reader/arma.natvis",
+		"/D/private/iges_reader/extern/Armadillo/include/armadillo",
+		"/D/private/iges_reader/case/general_test/output/2cir.vtk",
+		"/D/private/iges_reader/case/splines_test/output/splines_test.vtk",
+		"/D/private/iges_reader/case/splines_test/output/splines_test_input.m",
+		"/C/Users/z3315263/AppData/Local/Temp/Rar$DIa0.569/wrapper.cpp",
+		"/D/private/IGES_Reader_GUI/src/nurbs/curve.h",
+		"/D/private/iges_reader/src/io/SbfemExport.cpp",
+		"/D/private/iges_reader/case/dam_part/output/Drawing1.vtk",
+		"/D/private/iges_reader/case/dam_part/input/dam_part_surface_input.m",
+		"/D/private/iges_reader/case/dam_part/output/test.vtk",
+		"/C/Users/z3315263/Desktop/test.iges",
+		"/D/private/iges_reader/case/dam_part/input/test.iges",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_surface_input.m",
+		"/C/Users/z3315263/Desktop/New folder/dam_part_2_input.m",
+		"/C/Users/z3315263/Desktop/dam_part_surface_input.m",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_2_input.m",
+		"/D/NetDisks/Dropbox/GravityDams/Dam-models/slop.igs",
+		"/D/NetDisks/Dropbox/GravityDams/Dam-models/xiaowan.igs",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_surface_1.vtk",
+		"/D/uni/SCBEm/Quadtree-SBFEM/sbfem2d-code/example/test/dam/test_mesh_dam_input.m",
+		"/D/BaiduYunDownload/战争与和平（俄语原声）/Vojna.i.Mir.2.of.4.(Rus).KAMO.&.ShareReactor.Ru.srt",
+		"/D/private/iges_reader/case/dam_part/input/dam_part_surface_1.iges",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_surface.m",
+		"/D/private/iges_reader/case/dam_part/output/test.vtp",
+		"/C/Users/z3315263/Desktop/Bunny.vtp",
+		"/C/Users/z3315263/Downloads/bunny.vtp",
+		"/D/private/iges_reader/case/dam_part/output/Shape.vtk",
+		"/D/private/iges_reader/case/dam_part/output/dam_part_surface_1.iges/Shape.vtk",
+		"/C/Users/z3315263/Desktop/dam_part_surface.iges",
+		"/C/Users/z3315263/Desktop/12.iges",
+		"/D/private/iges_reader/case/dam_part/output/dam_part.iges/Shape.vtk",
+		"/D/private/iges_reader/case/dam_part/input/13.iges",
+		"/D/private/iges_reader/case/dam_part/input/dam_part.iges",
+		"/C/Users/z3315263/Desktop/Drawing1.iges",
+		"/C/Users/z3315263/Desktop/dam_part_surface.bak",
+		"/C/Users/z3315263/Desktop/dam_part.iges",
+		"/D/private/iges_reader/case/problem_nurbs/input/test.iges",
+		"/D/private/iges_reader/case/arc/input/test.iges",
+		"/D/private/iges_reader/case/arc/input/arc.iges",
+		"/D/private/iges_reader/case/problem_nurbs/input/arc.iges",
+		"/D/private/iges_reader/src/iges/IGESReader.cpp",
+		"/D/private/iges_reader/src/iges/IGESReader.h",
+		"/D/uni/Research/Report/quadtree_algorithm_full/main.tex",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/easy_mod.mod",
+		"/D/polymesher-code/case/IGES/output/Shape.vtk",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/technologies/Aircraftz Doctrines.txt",
+		"/D/NetDisks/Dropbox/current/polymesher-code/src/nurbs/IGESReader.cpp",
+		"/D/NetDisks/Dropbox/current/polymesher-code/src/nurbs/IGESReader.h",
+		"/D/NetDisks/Dropbox/current/polymesher-code/src/nurbs/VTKExport.cpp",
+		"/D/private/iges_reader/case/dam_part/output/surface.vtk",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/technologies/Aircraft Technology.txt",
+		"/D/uni/SCBEm/Quadtree-SBFEM/sbfem2d-code/example/test/igesTest/iges_input.m",
+		"/C/Users/z3315263/Desktop/test_html/test.html",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/units/bomber_MKII.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/readme.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/common/defines.lua",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/common/countries/Nationalist China.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/common/event_modifiers.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/common/defines.lua",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/common/triggered_modifiers.txt",
+		"/C/Users/z3315263/Desktop/SWE.mod",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/localisation/units.csv",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/localisation/units.csv",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/interface/counters.gfx",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/interface/counters.gfx",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/events/modifers.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/technologies/Secret Weapons.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/units/cag.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/policies/00_policies.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/technologies/Naval Technologies.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/mod/EM/technologies/Naval Doctrines.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/units/tactical_bomber.txt",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/common/static_modifiers.txt",
+		"/C/Users/z3315263/AppData/Local/Temp/Rar$DRa0.221/SWE.mod",
+		"/D/Games/Steam/steamapps/common/Hearts of Iron 3/tfh/events/modifers.txt",
+		"/D/uni/SCBEm/Quadtree-SBFEM/sbfem2d-code/case/woolie/output/mesh.vtk",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/edicts/00_edicts.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/opinion_modifiers/00_opinion_modifiers.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/ethics/00_ethics.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/on_actions/00_on_actions.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/fallen_empires/00_fallen_empire.txt",
+		"/C/Users/z3315263/AppData/Local/Temp/Rar$DRa0.998/destiny [1.2.0][062916]/destiny/common/edicts/destiny.txt",
+		"/D/Games/Steam/steamapps/common/Stellaris/common/defines/00_defines.lua",
+		"/D/Games/《钢铁雄心3：荣光时刻》免安装中文版/hoi3/tfh/common/defines.lua",
+		"/C/Users/Public/Paradox Interactive/Stellaris/save games/photeciansovereignty_912625609/gamestate",
+		"/D/Games/stellaris/3DMGAME/Stellaris/common/defines/00_defines.lua",
+		"/D/uni/Research/Report/pureBending/pureBending.tex",
+		"/C/Users/z3315263/AppData/Roaming/Sublime Text 3/Packages/LaTeXTools/Default (Windows).sublime-keymap",
+		"/D/Games/Steam/steamapps/common/Victoria 2/localisation/text.csv",
+		"/D/uni/Research/Report/quadtree_convex_cell/convex.tex",
+		"/D/uni/SCBEm/Quadtree-SBFEM/sbfem2d-code/tst.vtk",
+		"/D/Games/Steam/steamapps/common/Tropico 5/CommonLua/Population5000.lua",
+		"/D/Games/Steam/steamapps/common/Tropico 5/CommonLua/RoadRage2x.lua",
+		"/D/BaiduYunDownload/钢铁雄心3将领生成器Mini v1.5.1/data/不能运行的看这里/reg.bat",
+		"/D/BaiduYunDownload/钢铁雄心3将领生成器Mini v1.5.1/data/不能运行的看这里/TABCTL32.OCX",
+		"/D/BaiduYunDownload/钢铁雄心3将领生成器Mini v1.5.1/data/不能运行的看这里/MSCOMCTL.OCX",
+		"/D/Games/Steam/steamapps/common/Tropico 5/data/Lua/Game/WorkCycles/TeamstersOffice.lua",
+		"/D/BaiduYunDownload/《钢铁雄心3：荣光时刻》免安装中文版/hoi3/tfh/common/defines.lua",
+		"/C/Users/z3315263/Downloads/RoadRage2x.lua"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"27",
+			"transpose",
+			"parseNurbSurface",
+			"yan",
+			"yan\\",
+			"yan",
+			")$\n",
+			"vector",
+			"col",
+			"#define ARMA_USE_LAPACK",
+			"ARMA_USE_LAPACK",
+			"std::endl",
+			"<<",
+			"143",
+			"377",
+			"415",
+			"naval",
+			"naval_",
+			"radio",
+			"history",
+			"naval",
+			"tactical",
+			"naval",
+			"tactical",
+			"naval",
+			"bomber",
+			"naval",
+			"bomber_MKII",
+			"19",
+			"naval_bomber",
+			"navalbom",
+			"naval_bomber",
+			"bomber",
+			"naval",
+			"tactical",
+			"bomber",
+			"tatical",
+			"naval",
+			"7458 7669",
+			"robot",
+			"ROBOT",
+			"robot",
+			"trait",
+			"dock",
+			"const",
+			"era",
+			"debug",
+			"10000",
+			"speed",
+			"1000",
+			"base",
+			"50",
+			"service",
+			"req",
+			"requ",
+			"required",
+			"visitor",
+			"cap",
+			"313",
+			"}",
+			"figure",
+			"var",
+			"path",
+			"                                                                        S      1\n,,,20Hregion_subtract_test,22HAutoCAD 2015 - English,62HAutodesk TranslaG      1\ntion Framework DWG producer (atf_dwg_producer),32,38,7,99,15,,1.,2,2HMM,G      2\n1,0.08,15H20160610.143938,0.01,10000.,,7Hunknown,11,0,15H20160610.114022G      3\n;                                                                       G      4\n     143       1                       0                        00000000D      1\n     143       0     -31       1       0                               0D      2\n     124       2                                                00000000D      3\n     124                       2       0                               0D      4\n     100       4                                       3        00010000D      5\n     100       0               2       0                               0D      6\n     141       6                                                00010000D      7\n     141       0               1       0                               0D      8\n     141       7                                                00010000D      9\n     141       0               1       0                               0D     10\n     110       8                                                00010000D     11\n     110       0               2       0                               0D     12\n     110      10                                                00010000D     13\n     110       0               2       0                               0D     14\n     110      12                                                00010000D     15\n     110       0               2       0                               0D     16\n     110      14                                                00010000D     17\n     110       0               2       0                               0D     18\n     190      16                                                00010000D     19\n     190       0               1       1                               0D     20\n     123      17                                                00010200D     21\n     123       0               1       0                               0D     22\n     123      18                                                00010200D     23\n     123       0               1       0                               0D     24\n     116      19                                                00010000D     25\n     116       0               1       0                               0D     26\n     406      20                                                00000000D     27\n     406                       1      15                               0D     28\n     406      21                       0                        00000000D     29\n     406                       1       3                               0D     30\n     314      22                                                00000200D     31\n     314                       1       0                               0D     32\n143,0,19,2,7,9,0,1,27;                                                 1P      1\n124,-1.,0.,-0.,7.11619443599375,0.,1.,-0.,-0.105181699224886,0.,       3P      2\n-0.,-1.,0.;                                                            3P      3\n100,0.,0.,0.,-17.4528592648025,2.13717932240343D-015,                  5P      4\n-17.4528592648025,2.13717932240343D-015;                               5P      5\n141,0,1,19,4,11,1,0,13,1,0,15,1,0,17,1,0;                              7P      6\n141,0,1,19,1,5,1,0;                                                    9P      7\n110,64.2011816195864,-38.6349916331037,0.,64.2011816195864,           11P      8\n43.2876189251538,0.;                                                  11P      9\n110,64.2011816195864,43.2876189251538,0.,-48.8457932900419,           13P     10\n43.2876189251538,0.;                                                  13P     11\n110,-48.8457932900419,43.2876189251538,0.,-48.8457932900419,          15P     12\n-38.6349916331037,0.;                                                 15P     13\n110,-48.8457932900419,-38.6349916331037,0.,64.2011816195864,          17P     14\n-38.6349916331037,0.;                                                 17P     15\n190,25,21,23;                                                         19P     16\n123,0.,0.,1.;                                                         21P     17\n123,1.,0.,0.;                                                         23P     18\n116,7.67769416477222,2.32631364602502,0.,0;                           25P     19\n406,1,2H58;                                                           27P     20\n406,2,0,1H0;                                                          29P     21\n314,100.,100.,100.,;                                                  31P     22\nS      1G      4D     32P     22                                        T      1\n",
+			"shipCard",
+			"-62",
+			"46P",
+			"46",
+			"4P",
+			"259",
+			"197",
+			"197P=",
+			"197P",
+			"mastercell",
+			"\n\\",
+			"1P",
+			"class=\"hidden\"",
+			"project_pt",
+			"project",
+			"SurfacePredication",
+			"lines",
+			"814",
+			"random",
+			";\n",
+			"-0.00",
+			"-0.000000",
+			"-0.000",
+			"aim",
+			"yb_load_feeds",
+			"display",
+			"findBy",
+			"__val_escape",
+			"spclass",
+			"__val_escape",
+			"class",
+			"spclass",
+			"find",
+			"cachevalue",
+			"\"",
+			"myInt",
+			"nPt",
+			"JPanel",
+			"\";\n",
+			"getWidth",
+			"tri",
+			"per",
+			"pre"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"\\r\\n\"",
+			"+",
+			"'"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/z3315263/Desktop/bullet.iges",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2186,
+								2186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/uni/SCBEm/OCTREE_IMAGE_STL_2/case/OctreeSTL/output/bullet.vtk",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 167770,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21143,
+								21143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 5,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/polymesher-code/src/IGES/IGESReader.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6520,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1179,
+								1179
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 465.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 208.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.latextools":
+	{
+		"height": 94.0
+	},
+	"pinned_build_system": "Packages/User/iges_reader.sublime-build",
+	"project": "sublime_proj.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+		"xdebug":
+		{
+			"hide_conflict": false
+		}
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
