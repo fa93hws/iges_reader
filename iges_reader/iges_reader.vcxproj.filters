@@ -111,6 +111,9 @@
     <ClCompile Include="..\src\iges\IGESReader3D.cpp">
       <Filter>src\iges</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\io\IGESVTKExport3D.cpp">
+      <Filter>src\io</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\iges\IGESReader.h">
@@ -187,6 +190,9 @@
     </ClInclude>
     <ClInclude Include="..\src\iges\IGESReader3D.h">
       <Filter>src\iges</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\io\IGESVTKExport3D.h">
+      <Filter>src\io</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

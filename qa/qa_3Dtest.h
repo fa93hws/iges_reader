@@ -8,6 +8,7 @@
 #include "../src/iges/IGESReader.h"
 #include "../src/io/SbfemExport.h"
 #include "../src/iges/IGESReader3D.h"
+#include "../src/io/IGESVTKExport3D.h"
 
 class QA_IGES3D :public Test {
 

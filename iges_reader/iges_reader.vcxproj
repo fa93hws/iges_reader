@@ -34,6 +34,7 @@
     <ClCompile Include="..\src\iges\IGESReader3D.cpp" />
     <ClCompile Include="..\src\iges\shape.cpp" />
     <ClCompile Include="..\src\iges\shape3D.cpp" />
+    <ClCompile Include="..\src\io\IGESVTKExport3D.cpp" />
     <ClCompile Include="..\src\io\SbfemExport.cpp" />
     <ClCompile Include="..\src\io\VTKExport.cpp" />
     <ClCompile Include="..\src\nurbs\basis.cpp" />
@@ -59,6 +60,7 @@
     <ClInclude Include="..\src\iges\IGESReader3D.h" />
     <ClInclude Include="..\src\iges\shape.h" />
     <ClInclude Include="..\src\iges\shape3D.h" />
+    <ClInclude Include="..\src\io\IGESVTKExport3D.h" />
     <ClInclude Include="..\src\io\SbfemExport.h" />
     <ClInclude Include="..\src\io\VTKExport.h" />
     <ClInclude Include="..\src\nurbs\basis.h" />

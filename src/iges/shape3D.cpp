@@ -25,9 +25,21 @@ void Surf128::setSurf(const NURBS::ParentSurface &surf) {
 	_surf = surf;
 	_subClass = 1; 
 }
+void Surf128::discrete(const int n,std::vector<std::vector<int>> &faces, std::vector<NS::Point3D> &pts) {
+	if (_isDiscreted) {
+		faces = _faces;
+		pts = _pts;
+		return;
+	}
+	_surf.discrete(n, faces, pts);
+}
+/**************************************** NurbsSurf 126 ************************************************/
 void Curve126::setCurve(const NURBS::ParentCurve &cc) {
 	_curve = cc; 
 	_subClass = 2;
+}
+void Curve126::discrete(std::vector<NS::Point3D> &pts) {
+
 }
 /**************************************** Shell 514 **************************************************/
 void Shell514::addFace(const Face510 &face, const int dir) { 
@@ -46,7 +58,7 @@ template class ShapesGroup<std::shared_ptr<Curve3D>, int>;
 template class ShapesGroup<Solid186, int>;
 template<class COMP, class DIR>
 int ShapesGroup<COMP, DIR>::count() const {
-	return _comp.size() - 1; 
+	return _comp.size(); 
 }
 
 template<class COMP, class DIR>

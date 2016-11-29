@@ -12,7 +12,7 @@
 NSI_BEG
 /**************************************** Shape3D **************************************************/
 class Shape3D {
-public:
+protected:
 	arma::vec _T;
 	arma::mat _R;
 	/* The Transformation Matrix Entity transforms three - row column vectors by means of a matrix multiplication
@@ -26,6 +26,8 @@ public:
 	std::string _layer;
 	int _level;
 	std::string _name;
+	bool _isDiscreted = false;
+public:
 
 	
 
@@ -42,8 +44,11 @@ protected:
 		0 = Plane;
 		1 = NURBS;
 	*/
+	std::vector<std::vector<int>> _faces;
+	std::vector<NS::Point3D> _pts;
 public:
 	int getSurfaceTyp() const { return _subClass; }
+	virtual void discrete(const int n,std::vector<std::vector<int>> &faces, std::vector<NS::Point3D> &pts)=0;
 };
 /**************************************** Curve3D **************************************************/
 class Curve3D : public Shape3D {
@@ -55,6 +60,7 @@ protected:
 		2 = NURBS;
 	*/
 public:
+	virtual void discrete(std::vector<NS::Point3D> &pts) = 0;
 };
 /**************************************** NurbsSurf 128 ************************************************/
 class Surf128 : public Surface3D {
@@ -64,6 +70,7 @@ private:
 public:
 	void setSurf(const NURBS::ParentSurface &surf);
 	void getSurf(NURBS::ParentSurface &ss) { ss = _surf; }
+	void discrete(const int n,std::vector<std::vector<int>> &faces, std::vector<NS::Point3D> &pts);
 };
 /**************************************** Edge 504 **************************************************/
 class Edge504 {
@@ -91,6 +98,7 @@ private:
 	NURBS::Curve _curve;
 public:
 	void setCurve(const NURBS::ParentCurve &cc);
+	void discrete(std::vector<NS::Point3D> &pts);
 };
 /**************************************** Face 510 **************************************************/
 class Face510 {

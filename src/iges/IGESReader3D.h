@@ -60,6 +60,9 @@ private:
 public:
 	IGESReader3D() {};
 	IGESReader3D(std::string &path);
+	void getVertexes(Vertex502 &ver) const { ver = _vertex; };
 	void getCurvesGroup(CurvesGroup &cg) const { cg = _curvesGroup; };
+	void getSurfacesGroup(SurfacesGroup &sg) const { sg = _surfaceGroup; };
+	void getSolidsGroup(SolidsGroup &sg) const { sg = _solidsGroup; };
 };
 NS_END
