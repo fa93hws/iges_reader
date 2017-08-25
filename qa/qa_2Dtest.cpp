@@ -1,6 +1,7 @@
 #include "qa_2Dtest.h"
 #include "../src/iges/IGESReader.h"
 #include "../src/io/SbfemExport.h"
+#include "../src/java/JSON.hpp"
 
 
 void QA_IGES2D::dam_part_surface() {
@@ -26,6 +27,7 @@ void QA_IGES2D::splines_test() {
 	std::string fileName = "splines_test";
 	IGES::IGESReader spls = IGES::IGESReader(input_file(fileName + ".iges"));
 	IGES::ShapeManager2DSurfs s2d; spls.getsurfaces2D(s2d);
+
 	// debug
 	//spls.getsurfaces2D(s2d);
 	//std::vector<IGES::IGES_NURBSCurve> cs;
@@ -44,7 +46,7 @@ void QA_IGES2D::splines_test() {
 	return;
 }
 void QA_IGES2D::general_test() {
-	std::string fileName = "Drawing2";
+	std::string fileName = "Plate_Hole";
 	IGES::IGESReader gen = IGES::IGESReader(input_file(fileName + ".iges"));
 	IGES::ShapeManager2DSurfs s2d; gen.getsurfaces2D(s2d);
 	IGES::SBFEMExport se(s2d, 0.001, 150);

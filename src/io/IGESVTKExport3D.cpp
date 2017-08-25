@@ -1,5 +1,5 @@
 #include "IGESVTKExport3D.h"
-#define __numberThread 10
+#define __numberThread 20
 
 NSI_BEG
 void IGESVTKExport3D::discreteSurf(int idx, std::vector<std::vector<int>> & faces, std::vector<NS::Point3D> & pts) {
@@ -17,7 +17,7 @@ void IGESVTKExport3D::surfsFileO(const std::string &pathOut, const std::string &
 	std::string path = pathOut + "\\";
 	CreateDirectory(path.c_str(), NULL);
 	myfile.open(path + fileName + ".vtk");
-	myfile << "# vtk DataFile Version 3.1" << std::endl; 
+	myfile << "# vtk DataFile Version 3.1" << std::endl;
 	myfile << "Something" << std::endl;
 	myfile << "ASCII" << std::endl;
 	myfile << "DATASET POLYDATA" << std::endl;
@@ -65,6 +65,46 @@ void IGESVTKExport3D::surfsFileO(const std::string &pathOut, const std::string &
 	std::cout << "exported to VTK file" << std::endl;
 }
 
+void IGESVTKExport3D::uniformNodes(std::vector<std::vector<NS::Point3D>> &pts) {
+	// find max and min of the coordinate
+	double xmin = pts[0][0].x();
+	double ymin = pts[0][0].y();
+	double zmin = pts[0][0].z();
+	double xmax = xmin, ymax = ymin, zmax = zmin;
+		for (auto i = pts.begin(); i != pts.end(); i++) {
+			auto aa = 1;
+			for (auto j = (*i).begin(); j != (*i).end(); j++) {
+				if ((*j).x() < xmin)
+					xmin = (*j).x();
+				if ((*j).x() > xmax)
+					xmax = (*j).x();
+				if ((*j).y() < ymin)
+					ymin = (*j).y();
+				if ((*j).y() > ymax)
+					ymax = (*j).y();
+				if ((*j).z() < zmin)
+					zmin = (*j).z();
+				if ((*j).z() > zmax)
+					zmax = (*j).z();
+			}
+		}
+
+	//find center and maxsize
+	NS::Point3D center = NS::Point3D(xmax + xmin, ymax + ymin, zmax + zmin) / 2;
+	NS::Point3D box = NS::Point3D(xmax - xmin, ymax - ymin, zmax - zmin);
+	double maxSize = NS::Maximum3(box.x(), box.y(), box.z());
+	double scale = 100 / maxSize;
+
+	// rescale the nodes
+	for (auto i = pts.begin(); i != pts.end(); i++) {
+		for (auto j = (*i).begin(); j != (*i).end(); j++) {
+			*j = *j - center;
+			*j *= scale;
+		}
+	}
+	return;
+}
+
 void IGESVTKExport3D::exportSurfsToVTK(const std::string &pathOut, std::string &fileName) {
 	static const int nSurf = _surfacesGroup.count();
 	std::vector<std::vector<std::vector<int>>> faces;
@@ -87,8 +127,8 @@ void IGESVTKExport3D::exportSurfsToVTK(const std::string &pathOut, std::string &
 			th[i].join();
 		idxStart += __numberThread;
 	} while (idxStart < nSurf - 1);
+	//uniformNodes(pts);
 	surfsFileO(pathOut, fileName, faces, pts);
-
 }
 IGESVTKExport3D::IGESVTKExport3D(const IGESReader3D &in) {
 	in.getCurvesGroup(_curvesGroup);

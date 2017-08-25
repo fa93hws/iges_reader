@@ -37,6 +37,9 @@
     <Filter Include="src\algebra">
       <UniqueIdentifier>{703ae3f6-8ff1-4262-ac6a-9a45361435e4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\java">
+      <UniqueIdentifier>{b6b95de9-5ac2-4617-addb-2ba790ba05b0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\qa\main.cpp">
@@ -113,6 +116,9 @@
     </ClCompile>
     <ClCompile Include="..\src\io\IGESVTKExport3D.cpp">
       <Filter>src\io</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\java\ReadIGES.cpp">
+      <Filter>src\java</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -193,6 +199,12 @@
     </ClInclude>
     <ClInclude Include="..\src\io\IGESVTKExport3D.h">
       <Filter>src\io</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\java\JSON.hpp">
+      <Filter>src\java</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\java\ReadIGES.h">
+      <Filter>src\java</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

@@ -594,11 +594,11 @@ void IGES_NURBSCurve::discrete(const double TOL, std::vector<NS::Point3D> &pts) 
 	int mode = 0;
 	int idx = -1;
 	
-	for (size_t i = 0;mode < 2; i++) {
+	for (size_t i = 0;i < 2; i++) {
 		if (c.controlPoints.size() <= 3) break;
-		std::vector<NS::Point3D> _pts(c.controlPoints.begin() + i, c.controlPoints.begin() + i + 4);
+		std::vector<NS::Point3D> _pts(c.controlPoints.begin() + i, c.controlPoints.begin() + i + 3);
 		std::vector<NS::Vector3D> vecs(3);
-		for (int j = 0; j < 3; j++) vecs[j] = NS::Vector3D(_pts[j], _pts[j + 1]);
+		for (int j = 0; j < 2; j++) vecs[j] = NS::Vector3D(_pts[j], _pts[j + 1]);
 		NS::Vector3D v0 = vecs[0].crossProduct(vecs[1]);
 		NS::Vector3D v1 = vecs[1].crossProduct(vecs[2]);
 		if (v0.z()*v1.z() < 0) {

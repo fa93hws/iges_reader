@@ -14,4 +14,5 @@ class QA_IGES3D :public Test {
 
 public:
 	void bullet();
+	void spinner();
 };

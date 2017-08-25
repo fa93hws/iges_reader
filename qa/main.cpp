@@ -25,8 +25,10 @@ int main() {
 	//qa_mRep.calMRep_Test();
 
 	QA_IGES3D qa_iges3D;
-	qa_iges3D.set_directory(case_directory, "bullet");
-	qa_iges3D.bullet();
+	//qa_iges3D.set_directory(case_directory, "bullet");
+	//qa_iges3D.bullet();
+	qa_iges3D.set_directory(case_directory, "spinner");
+	qa_iges3D.spinner();
 
 	getchar();
 	return 0;
